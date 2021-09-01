@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  html,body {
+    overflow-x: hidden;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    transition: all .3s linear;
+  }
+
+  :root {
+    --color-black: #1B2A2E;
+    --color-white: #ffffff;
+    --color-grey: #78818D;
+    --colo-blue: #329FBA;
+    --color-pink: #DC1D54;
+}

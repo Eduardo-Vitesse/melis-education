@@ -6,7 +6,7 @@
     list-style: none;
     text-decoration: none;
     border: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
   img {
@@ -28,10 +28,79 @@
     transition: all .3s linear;
   }
 
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1B2A2E;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }  
+
   :root {
-    --color-black: #1B2A2E;
-    --color-white: #ffffff;
-    --color-grey: #78818D;
-    --colo-blue: #329FBA;
-    --color-pink: #DC1D54;
+    --color-primary:#6EC1D5;
+    --color-primary-darker:#329FBA;
+    --color-primary-hover:#2790AA;
+    --color-secondary:#DC1D54;
+    --color-secondary-darker:#C11345;
+    --color-tertiary:#E8AE29;
+    --color-tertiary-darker:#D99F1A;
+    --color-neutral:#FAFBF4;
+    --color-white:#ffffff;
+    --color-gray:#1B2A2E;
+    --color-gray-80:#485558;
+    --color-gray-60:#767F82;
+    --color-gray-5:#F4F4F5;
+    --color-gray-paragraph:#78818D;
+    --color-information:#0E73BA;
+    --color-sucess-darker:#357E3E;
+}
+
+.container {
+  width: 1258px;
+}
+
+/*BOTÃO*/
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-darker);
+  width: 160px;
+  height: 47px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 6px 10px 0px #176C823D;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+/*CARD DE CURSOS*/
+.card-cursos {
+  background-color: var(--color-white);
+  box-shadow: 0px 8px 40px 0px rgba(27, 42, 46, 0,06);
+  padding: 32px;
+}
+
+.h3-card-cursos {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.link-ver-mais {
+  color: var(--color-primary-darker);
+  font-weight: 600;
+  font-size: 16px;
 }

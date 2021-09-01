@@ -158,11 +158,15 @@
   box-shadow: 0px 6px 30px 0px #176C821A;
   display: flex;
   padding: 26px 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-depoimentos {
+.card-depoimentos img {
   width: 91.15px;
   height: 91.15px;
+  margin-right: 32px;
 }
 
 .box-depoimento {
@@ -170,12 +174,14 @@
   flex-direction: column;
 }
 
-.h3-card-depoimentos {
+.box-depoimento h3 {
   color: var(--color-gray);
+  font-weight: 600;
 }
 
-.depoimento p {
+.box-depoimento p {
   font-size: 14px;
+  margin-top: 10px;
 }
 
 /*FOOTER*/

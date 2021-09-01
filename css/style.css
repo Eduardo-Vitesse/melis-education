@@ -29,16 +29,33 @@
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 600;
     color: #1B2A2E;
   }
   
-  p {
-    font-size: 16px;
+  h3 {
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 24px;
-  }  
+    line-height: 150%;
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-gray-paragraph);
+  } 
+
+  footer {
+    width: 100%;
+    background-color: var(--color-white);
+    border-top: 1px solid #EFF0F0;
+    padding-top: 31px;
+    padding-bottom: 50px;
+    bottom: 0;
+    position: absolute;
+  }
 
   :root {
     --color-primary:#6EC1D5;
@@ -61,6 +78,8 @@
 
 .container {
   width: 1258px;
+  height: auto;
+  margin: 0 auto;
 }
 
 /*BOTÃO*/
@@ -78,7 +97,7 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: 400ms;
+  transition: all .4s linear;
 }
 
 .btn:hover {
@@ -87,20 +106,115 @@
 
 /*CARD DE CURSOS*/
 .card-cursos {
+  max-width: 399px;
   background-color: var(--color-white);
-  box-shadow: 0px 8px 40px 0px rgba(27, 42, 46, 0,06);
+  box-shadow: 0px 8px 40px 0px #1B2A2E0F;
   padding: 32px;
+  border-radius: 10px;
+}
+
+.barra-and-h3 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.barra-detail {
+  width: 3.5px;
+  height: 18px;
+  background-color: var(--color-secondary);
+  margin-right: 11px;
+  border-radius: 10px;
 }
 
 .h3-card-cursos {
   color: var(--color-secondary);
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 2.4rem;
 }
 
-.link-ver-mais {
+.btn-ver-mais {
+  display: flex;
+  padding-top: 24px;
+}
+
+.btn-ver-mais h3 {
   color: var(--color-primary-darker);
   font-weight: 600;
   font-size: 16px;
+  margin-right: 8px;
 }
+
+.btn-ver-mais a {
+  display: flex;
+
+}
+
+/*CARD DE DEPOIMENTOS*/
+.card-depoimentos {
+  max-width: 395px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0px 6px 30px 0px #176C821A;
+  display: flex;
+  padding: 26px 27px 27px;
+}
+
+.img-depoimentos {
+  width: 91.15px;
+  height: 91.15px;
+}
+
+.box-depoimento {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3-card-depoimentos {
+  color: var(--color-gray);
+}
+
+.depoimento p {
+  font-size: 14px;
+}
+
+/*FOOTER*/
+.copy-and-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-text p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-gray-80);
+}
+
+.social-icons {
+  width: 118px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  transition: all .4s linear;
+}
+
+.social-icons a:hover {
+  background-color: var(--color-secondary-darker);
+} 

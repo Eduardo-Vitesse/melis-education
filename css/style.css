@@ -188,14 +188,17 @@
 
 
 /* MENU */
+.img-background {
+  position: absolute;
+  z-index: -1;
+}
+
 header {
   width: 100%;
-  height: 400px;
-  background-image: url(../img/background/header-detail.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
 }
 
 header nav {
@@ -208,7 +211,6 @@ header nav {
 header nav .logo {
   width: 241px;
   height: auto;
-  margin-top: 26px;
 }
 
 header nav ul {

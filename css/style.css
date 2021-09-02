@@ -185,20 +185,20 @@
   margin-top: 10px;
 }
 
-
-
 /* MENU */
 .img-background {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 header {
   width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  margin-top: 26px;
+  height: 400px;
+  background-image: url(../img/background/header-detail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 header nav {

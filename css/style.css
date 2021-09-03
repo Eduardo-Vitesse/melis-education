@@ -73,6 +73,7 @@
     --color-gray-paragraph:#78818D;
     --color-information:#0E73BA;
     --color-sucess-darker:#357E3E;
+    --color-black: #000000;
 }
 
 .container {
@@ -300,7 +301,8 @@ header .sub-menu .submeni-item:hover .detail {
   justify-content: center;
   align-items: center;
   background-color: var(--color-primary-darker);
-  width: 160px;
+  min-width: 160px;
+  padding: 0 15px;
   height: 47px;
   border-radius: 10px;
   border: none;
@@ -473,7 +475,6 @@ footer {
   width: 100%;
   background-color: var(--color-white);
   border-top: 1px solid #EFF0F0;
-  padding-top: 31px;
   padding-bottom: 50px;
   bottom: 0;
   position: static;

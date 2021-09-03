@@ -70,6 +70,7 @@
     --color-gray:#1B2A2E;
     --color-gray-80:#485558;
     --color-gray-60:#767F82;
+    --color-gray-30: #BABFC0;
     --color-gray-5:#F4F4F5;
     --color-gray-paragraph:#78818D;
     --color-information:#0E73BA;
@@ -84,6 +85,11 @@
 }
 
 /* MENU */
+.activit {
+  font-weight: bold;
+  color: var(--color-primary-darker);
+}
+
 .img-background {
   position: absolute;
   z-index: -1;
@@ -116,6 +122,7 @@ header nav ul {
 header nav ul li {
   margin-right: 24px;
   display: flex;
+  cursor: pointer;
 }
 header nav ul li:last-child {
   margin-right: 0;

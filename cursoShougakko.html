@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cursoShougakko.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <title>Melis Education - Curso Shougakko</title>
 </head>
 <body>
@@ -22,15 +22,16 @@
                 <a href="index.html">
                     <img class="logo" src="./img/brand/logo-horizontal.png" alt="Logo Melis Education">
                 </a>
-                <ul>
+                <ul id="menu">
                     <li><a href="index.html">Home</a></li>
-                    <li>
-                        <a class="activit" href="#" id="drop-down">Cursos</a>
+                    <li id="drop-down">
+                        <a class="activit" href="#">Cursos</a>
                         <img class="arrow-down" src="./img/icons/arrow-down.svg" alt="Seta para baixo">
                     </li>
                     <li><a href="quemSomos.html">Quem somos</a></li>
                 </ul>
-                <a href="#" class="btn">Entrar</a>
+                <a id="btn-entrar" href="#" class="btn">Entrar</a>
+                <img id="menu-mobile" src="./img/icons/menu-mibile.png" alt="Icone do menu responsívo">
             </nav>
             <div id="subMenuId" class="sub-menu">
                 <div class="submeni-item">
@@ -42,6 +43,27 @@
                     <a href="cursoShougakko.html">Shougakko</a>
                 </div>
             </div>
+            <nav id="hidde-menu-2" class="hidde-menu">
+                <a  href="#" class="btn">Entrar</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="drop-down-mobile">
+                        <a class="activit" href="#">Cursos</a>
+                        <img class="arrow-down" src="./img/icons/arrow-down.svg" alt="Seta para baixo">
+                    </li>
+                    <li id="subMenuId-mobile" class="sub-menu-mobile">
+                        <div class="submeni-item">
+                            <div class="detail"></div>
+                            <a href="cursoShougakko.html">Shougakko</a>
+                        </div>
+                        <div class="submeni-item">
+                            <div class="detail"></div>
+                            <a href="cursoShougakko.html">Shougakko</a>
+                        </div>
+                    </li>
+                    <li><a href="quemSomos.html">Quem somos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 

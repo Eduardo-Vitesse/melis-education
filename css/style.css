@@ -150,6 +150,7 @@ header .sub-menu {
   background: var(--color-white);
   box-shadow: 0px 6px 30px rgba(23, 108, 130, 0.1);
   border-radius: 8px;
+  z-index: 99;
 }
 
 header .sub-menu .submeni-item {
@@ -190,6 +191,106 @@ header .sub-menu .submeni-item:hover {
 
 header .sub-menu .submeni-item:hover .detail {
   background-color: #C11345;
+}
+
+/* MENU RESPONSÍVO */
+#menu-mobile,
+#hidde-menu-2,
+.hidde-menu {
+    display: none;
+}
+
+@media (max-width: 800px ) {
+  #menu, #btn-entrar, #hidde-menu-2 {
+      display: none;
+  }
+
+  #menu-mobile {
+      display: block;
+      cursor: pointer;
+  }
+
+  header .hidde-menu {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 0;
+  }
+
+  header .hidde-menu .btn {
+      margin: 47px 0 60px 0;
+      width: 100%;
+  }
+
+  header .hidde-menu ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  header .hidde-menu ul li {
+      margin-top: 24px;
+  }
+
+  header .hidde-menu ul li:first-child {
+      margin-top: 0;
+  }
+
+  header .hidde-menu ul li.sub-menu-mobile {
+      display: flex;
+      flex-direction: column;
+  }
+
+  header .hidde-menu ul li a {
+      font-size: 24px;
+      line-height: 40px;
+  }
+
+  /* MENU DROP-DOWN RESPOSÍVO */
+  #subMenuId-mobile {
+      display: none;
+  }
+
+  header ul .sub-menu-mobile .submeni-item {
+      height: 50px;
+      display: flex;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: all .4s linear;
+  }
+  
+  header ul .sub-menu-mobile .submeni-item .detail {
+      width: 4px;
+      height: 30px;
+      background-color:transparent;
+      border-radius: 8px;
+      margin-left: 10px;
+      transition: all .4s linear;
+  }
+  
+  header ul .sub-menu-mobile .submeni-item a {
+      font-size: 20px;
+      line-height: 130%;
+      color: var(--color-gray);
+      margin-left: 15px;
+      transition: all .4s linear;
+  }
+  
+  header ul .sub-menu-mobile .submeni-item:hover a {
+      font-weight: bold;
+  }
+  
+  header ul .sub-menu-mobile .submeni-item:hover {
+      background: rgba(220, 29, 83, 0.1);
+      border-radius: 8px;
+  }
+  
+  header ul .sub-menu-mobile .submeni-item:hover .detail {
+      background-color: #C11345;
+  }
 }
 
 

@@ -316,6 +316,10 @@ header .sub-menu .submeni-item:hover .detail {
   background-color: var(--color-primary-hover);
 }
 
+.btn-rosa {
+  background-color: var(--color-secondary);
+}
+
 /*CARD DE CURSOS*/
 .card-cursos {
   max-width: 399px;

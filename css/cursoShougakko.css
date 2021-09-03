@@ -1,0 +1,266 @@
+/*HERO*/
+.hero-curso-shougakko h1 {
+    font-size: 4.6rem;
+    font-weight: 600;
+    line-height: 146%;
+    margin-top: 8.8rem;
+}
+
+.hero-curso-shougakko p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155%;
+    max-width: 591px;
+    margin-top: 1.8rem;
+}
+
+.divider-section-white {
+    height: 58px;
+    width: auto;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    z-index: 20;
+    position: relative;
+}
+
+/*JORNADAS DO SHOUGAKKO*/
+.bg-jornada {
+    background-image: url(../img/details/fundo\ colorido\ pag\ curso.svg);
+    background-size: cover;
+    padding: 11.9rem 0 10.8rem ;
+    margin-top: -4.2rem;
+    border-radius: 20px;
+}
+
+.jornadas-curso-shougakko img {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.jornadas-curso-shougakko h2 {
+    color: var(--color-white);
+    font-weight: 700;
+    margin-bottom: 5.2rem;
+}
+
+.cards-jornada-curso {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-jornada {
+    max-width: 424px;
+    height: 195px;
+    padding: 30px 27px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    position: static;
+    z-index: 3;
+}
+
+.card-jornada-title {
+    display: flex;
+}
+
+.card-jornada-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-left: 16.5px;
+}
+
+.card-jornada p {
+    font-size: 1.8rem;
+    margin-top: 2.3rem;
+}
+
+#card-2 {
+    margin-top: 17.6rem;    
+}
+
+#card-3 {
+    margin-top: 2.5rem;    
+}
+
+#card-4 {
+    margin-top: 21.2rem;    
+}
+
+#card-5 {
+    margin-top: 8.9rem;    
+}
+
+/*COMO FUNCIONA A JORNADA*/
+.como-funciona-curso-shougakko{
+    margin-top: 16rem;
+}
+
+.text-como-funciona {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-como-funciona p {
+    max-width: 794px;
+}
+
+.numbers-como-funciona {
+    margin-top: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.percent-nummber {
+    width: 28.7rem;
+    height: 28.7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#percent-1 {
+    border: solid 1px #329FBA;
+}
+
+#percent-2 {
+    border: solid 3px #329FBA;
+}
+
+#percent-3 {
+    border: solid 6px #329FBA;
+}
+
+#percent-4 {
+    border: solid 8px #329FBA;
+}
+
+.number-and-simbol {
+    display: flex;
+    align-items: flex-end;
+}
+
+.number-and-simbol h3 {
+    font-size: 8rem;
+    font-weight: 600;
+    font-weight: 600;
+    line-height: 8rem;
+}
+
+.number-and-simbol span {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.7rem;
+}
+
+.percent-nummber p{
+    margin-top: 24px;
+    color: var(--color-primary-darker);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.percent-nummber h4 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    color: var(--color-primary-darker);
+}
+
+
+/*CTA AGENDE SUA CONSULTORIA*/
+.consultoria-curso-shougakko {
+    background-image: url(../img/background/base-CTA-curso.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    margin-top: 14rem;
+}
+
+.consultoria-curso-shougakko img {
+    margin-top: -59px;
+    margin-right: 7.1rem;
+}
+
+
+.agende-text-and-button {
+    max-width: 574px;
+}
+
+.agende-text-and-button h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 115%;
+    margin-bottom: 2.9rem;
+    color: var(--color-white);
+}
+
+/*CARDS CHECKPOINT*/
+.checkpoint-curso-shougakko {
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-checkpoint {
+    max-width: 613px;
+    background-color: #F1F6F9;
+    border-radius: 20px;
+    padding-left: 4.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.card-checkpoint h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 229%;
+    letter-spacing: 2px;
+    color: var(--color-secondary);
+}
+
+.card-checkpoint h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 185%;
+    margin-bottom: 1.6rem;
+}
+
+.card-checkpoint img {
+    margin-left: 4.8rem;
+}
+
+/*BENEFÍCIOS*/
+.beneficios-curso-shougakko {
+    margin-top: 16rem;
+}
+
+.card-beneficio {
+    max-width: 296px;
+    height: 212px;
+    padding: 3rem 3rem 3rem 3rem;
+    border-radius: 20px;
+    border: 2px solid #DC1D5420;
+}
+
+.icon-texto-beneficio {
+    display: flex;
+}
+
+.icon-texto-beneficio h3 {
+    margin-left: 12px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.card-beneficio p {
+    margin-top: 2.4rem;
+    color: #78818D;
+}

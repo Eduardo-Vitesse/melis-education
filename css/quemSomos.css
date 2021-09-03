@@ -1,0 +1,147 @@
+
+/*HERO*/
+.hero-quem-somos {
+    display: flex;
+    margin-top: 11.1rem;
+}
+
+.text-hero-quem-somos {
+    max-width: 594px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-hero-quem-somos h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: var(--color-secondary);
+}
+
+.text-hero-quem-somos h1 {
+    font-weight: 600;
+}
+
+.text-hero-quem-somos p {
+    max-width: 418px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155%;
+    margin-top: 3.6rem;
+}
+
+.img-hero-quem-somos {
+    margin-left: 8.8rem;
+    margin-top: -2.3rem;
+}
+
+/*ESTUDAR É PRATICAR...*/
+.grafismo-estudar-praticar {
+    background: url(../img/details/detail-quemSomos.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 47px;
+}
+
+.estudar-praticar {
+    margin-top: 11.4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-estudar-praticar {
+    margin-left: -65px;
+    margin-right: 61px;
+}
+
+.texto-estudar-praticar {
+    max-width: 559px;
+    height: auto;
+}
+
+.texto-estudar-praticar h2 {
+    line-height: 155%;
+}
+
+.texto-estudar-praticar p {
+    margin-top: 3.3rem;
+    font-size: 1.8rem;
+}
+
+/*TRANSIÇÃO QUEM SOMOS*/
+.transition-quem-somos {
+    margin-top: 12rem;
+    height: 163px;
+    width: auto;
+    background: url(../img/details/grafismo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-transition {
+    width: 580px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-transition h2 {
+    color: white;
+}
+
+
+/*CARDS*/
+.cards-quem-somos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16.7rem;
+}
+
+/*SOBRE A PROFESSORA*/
+.sobre-a-professora {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-professora {
+    max-width: 576px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.text-professora h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    color: var(--color-white);
+}
+
+.text-professora h3 {
+    margin-top: 0.6rem;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 155%;
+    color: var(--color-white);
+}
+
+.text-professora p {
+    margin-top: 2.6rem;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155%;
+    color: var(--color-white);
+}
+
+.img-professora {
+    margin-top: -17px;
+}

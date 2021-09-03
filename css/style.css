@@ -397,6 +397,41 @@ header .sub-menu .submeni-item:hover .detail {
 }
 
 
+/*CARD AZUL DA PÁGINA QUEM SOMOS*/
+.box-cards-azul {
+  width: 296px;
+  height: 301px;
+  padding: 35px 26px 0 26px;
+  background-color: var(--color-primary-darker);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-e-title-card-azul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.icon-e-title-card-azul img {
+  margin-right: 14px;
+}
+
+.icon-e-title-card-azul h3 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--color-white);
+}
+
+.text-card-azul {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--color-gray-5);
+}
+
 /*CONTATO*/
 .contato {
   display: flex;

@@ -393,8 +393,26 @@ body {
     }
 
     .differentials-slider .swiper-pagination-dif {
-        /* position: absolute; */
-        z-index: 99;
+        position: absolute;
+        /*z-index: 99;*/
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0;
+        background-color: transparent;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 8px;
+        height: 8px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
     }
 
     .differentials-slider .swiper-slide .slider-box {

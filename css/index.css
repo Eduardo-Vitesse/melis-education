@@ -1,3 +1,147 @@
 body {
     background-color: #FAFBFB;
 }
+
+/*HERO*/
+.hero {
+    display: flex;
+}
+
+.box-text-hero {
+    margin-top: 150px;
+    max-width: 591px;
+    height: auto;
+    position: relative;
+}
+
+.box-text-hero svg {
+    position: absolute;
+    right: 5.5%;
+    top: 9.5%;
+    z-index: -1;
+}
+
+.box-text-hero p {
+    margin-top: 20px;
+}
+
+.box-text-hero button {
+    margin-top: 38px;
+}
+
+.box-text-hero img {
+    margin-top: 128px;
+}
+
+.img-hero {
+    margin-left: 7px;
+}
+
+.img-hero img {
+    background-size: cover;
+}
+
+/*NA MELIS VOCÊ ENCONTRA*/
+.melis-differentials {
+    margin-top: 40px;
+}
+
+.box-differentials {
+    margin-top: 24px;
+    background-color: var(--color-primary-darker);
+    border-radius: 20px;
+    padding: 39px 36px 39px 47px;
+}
+
+.list-differentials {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.list-differentials li {
+    width: 228px;
+    height: auto;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: flex-end;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.text-differentials {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0%;
+    margin-left: 14px;
+}
+
+.text-differentials span {
+    width: 77px;
+    height: 19.01px;
+    margin-bottom: 7px;    
+    background-color: var(--color-secondary-darker);
+    border-radius: 16.16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.divisor {
+    width: 2px;
+    height: 77px;
+    background-color: var(--color-primary);
+    border-radius: 1px;
+}
+
+/*CURSOS*/
+.courses {
+    margin-top: 14.0rem;
+}
+
+.cards-cursos {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*METODOLOGIA E PRINCÍPIOS*/
+.methodology {
+    margin-top: 10.0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-methodology {
+    max-width: 476px;
+    height: auto;
+    margin-top: 73px;
+}
+
+.text-methodology p {
+    margin-top: 2.4rem;
+    margin-bottom: 4.1rem;
+}
+
+.img-methodology {
+    margin-right: -30px;
+}
+
+/*DEPOIMENTOS*/
+.depoimentos {
+    margin-top: 17.3rem;
+    padding: 11.1rem 0 11.5rem 0;
+    background-color: var(--color-primary-darker);
+}
+
+.depoimentos h2 {
+    max-width: 564px;
+    color: var(--color-white);
+}

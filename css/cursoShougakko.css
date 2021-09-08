@@ -242,6 +242,15 @@
     margin-top: 16rem;
 }
 
+.cards-cursos-beneficios {
+    margin-top: 4.2rem;
+    min-height: 452px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
 .card-beneficio {
     max-width: 296px;
     height: 212px;
@@ -263,4 +272,26 @@
 .card-beneficio p {
     margin-top: 2.4rem;
     color: #78818D;
+}
+
+/*TEXTO EXPLICATIVO*/
+
+.texto-explicativo-curso-shougakko {
+    margin-top: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-explicativo {
+    max-width: 586px;
+}
+
+.texto-explicativo h2 {
+    line-height: 155%;
+    margin-bottom: 3.1rem;
+}
+
+.texto-explicativo-curso-shougakko img {
+    width: 59.4rem;
 }

@@ -455,6 +455,48 @@ body {
   /*SITE RESPONSIVO MOBILE*/
 
   @media (max-width: 740px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /*HERO*/
+    .hero {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero svg {
+        display: none;
+    }
+
+    .box-text-hero {
+        margin-top: 33px;
+    }
+    
+    .box-text-hero button {
+        margin-top: 30px;
+    }
+
+    .box-text-hero img {
+        display: none;
+    }
+
+
+    /*NA MELIS VOCÊ ENCONTRA*/
+    .melis-differentials {
+        margin-top: 80px;
+    }
+
     /*CARDS CURSOS*/
     .cards-cursos {
         display: flex;

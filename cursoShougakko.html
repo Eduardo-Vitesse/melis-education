@@ -476,20 +476,37 @@
     <!--SEÇÃO DE CONTATO-->
     <section>
       <div class="container contato">
-        <div class="text-contato">
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-          <p>
-            Vivamus tristique sed risus vitae ultrices. Praesent id ornare
-            lacus. Donec pretium hendrerit nibh eget volutpat. Nam id torto
-          </p>
-          <img
-            src="./img/img contact.png"
-            alt="garoto estudando e professora dando aula de japonês no notebook"
-          />
-        </div>
-        <div class="form"></div>
+          <div class="text-contato">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+              <p>
+                  Vivamus tristique sed risus vitae ultrices. Praesent id ornare lacus.
+                  Donec pretium hendrerit nibh eget volutpat. Nam id torto
+              </p>
+              <img src="./img/img contact.png" alt="garoto estudando e professora dando aula de japonês no notebook" />
+          </div>
+          <form action="">
+            <div class="form">
+                <label for="nome">Nome completo</label>
+                <input id="nome" type="text" name="Nome completo" placeholder="Insira seu nome" required>
+            </div>
+            <div class="form" style="margin-top: 16px;">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="E-mail" placeholder="Insira seu e-mail" required>
+            </div>
+            <div class="form" style="margin-top: 16px;">
+                <label for="tel">Telefone</label>
+                <input id="tel" type="text" name="Telefone" placeholder="DDD + Número" required>
+            </div>
+            <div class="form" style="margin-top: 16px;">
+                <label for="textarea">Deixe uma mensagem</label>
+                <textarea name="textarea" id="mensagem" cols="30" rows="5" placeholder="Insira sua mensagem" required></textarea>
+            </div>
+            <div class="form" style="margin-top: 16px;">
+                <button class="btn" type="submit">Enviar</button>
+            </div>
+        </form>
       </div>
-    </section>
+  </section>
 
     <!--RODAPÉ-->
     <footer>

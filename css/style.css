@@ -295,6 +295,8 @@ header .sub-menu .submeni-item:hover .detail {
 }
 
 
+
+
 /*BOTÃO*/
 .btn {
   display: flex;
@@ -320,6 +322,10 @@ header .sub-menu .submeni-item:hover .detail {
 
 .btn-rosa {
   background-color: var(--color-secondary);
+}
+
+.btn-rosa:hover {
+  background-color: var(--color-secondary-darker);
 }
 
 /*CARD DE CURSOS*/
@@ -402,7 +408,6 @@ header .sub-menu .submeni-item:hover .detail {
   margin-top: 10px;
 }
 
-
 /*CARD AZUL DA PÁGINA QUEM SOMOS*/
 .box-cards-azul {
   width: 296px;
@@ -464,14 +469,50 @@ header .sub-menu .submeni-item:hover .detail {
   margin-left: -30px;
 }
 
+/*FORM*/
 .form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form {
   width: 50.4rem;
   height: 54.1rem;
+  padding: 5.5rem 7.4rem 5.5rem 7.5rem;
   background: linear-gradient(92.59deg, #DC1D54 1.17%, #C11345 98.97%);
   border-radius: 14px;
 }
 
+label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: var(--color-white);
+  margin-bottom: 4px;
+}
 
+input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 0 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #D1D4D5
+}
+
+textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 0 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #D1D4D5
+}
+
+.form button {
+  width: 160px;
+  position: absolute;
+  right: 0%;
+}
 
 /*FOOTER*/
 

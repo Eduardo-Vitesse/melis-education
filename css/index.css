@@ -137,7 +137,7 @@ body {
 /*DEPOIMENTOS*/
 .depoimentos {
     margin-top: 17.3rem;
-    padding: 11.1rem 0 11.5rem 0;
+    padding: 11.1rem 0 5.6rem 0;
     background-color: var(--color-primary-darker);
 }
 
@@ -146,7 +146,6 @@ body {
     color: var(--color-white);
 }
 
-/*DEPOIMENTOS SLIDER*/
 .slider-details {
     position: relative;
     display: flex;
@@ -155,7 +154,7 @@ body {
     width: 230px;
     height: auto;
     margin-top: 24px;
-    margin-bottom: 117px;
+    margin-bottom: 11.7rem;
     float: right;
 }
 
@@ -215,6 +214,7 @@ body {
 }
 
   .swiper-pagination-bullet {
+    font-family: 'Montserrat', sans-serif; 
     width: 32px;
     height: 32px;
     font-size: 15px;
@@ -448,5 +448,65 @@ body {
 
     footer .menu-footer nav a.btn {
         width: 100%;
+    }
+  }
+
+
+  /*SITE RESPONSIVO MOBILE*/
+
+  @media (max-width: 740px) {
+    /*CARDS CURSOS*/
+    .cards-cursos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-cursos {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    /*METODOLOGIAS E PRINCIPIOS*/
+    
+    .methodology {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .text-methodology {
+        margin-top: 0px;
+    }
+
+    .img-methodology {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*DEPOIMENTOS*/
+    .depoimentos {
+        margin-top: 110px;
+    }
+
+    .depoimentos h2 {
+        margin: 0 16px;
+        font-size: 24px;
+    }
+
+    /*CONTATO*/
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato img {
+        margin: auto;
+    }
+
+    form {
+        margin-top: 32px;
+        width: 100%;
+        height: 507px;
+        padding: 40px 30px;
     }
   }

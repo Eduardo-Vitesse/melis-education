@@ -348,8 +348,7 @@
         margin-top: 62px;
     }
 
-    /*COMO FUNCIONA*/
-
+    /*CARDS COMO FUNCIONA*/
     .como-funciona-curso-shougakko {
         margin-top: 110px;
     }
@@ -359,13 +358,24 @@
         flex-direction: column;
     }
 
-    .text-como-funciona h2 {
-        margin-bottom: 14px;
-    }
-
     .text-como-funciona p {
+        margin-top: 14px;
+        margin-bottom: 40px;
         font-size: 16px;
     }
+
+    .numbers-como-funciona {
+        display: none;
+    }
+
+    .numbers-slider {
+        display: block;
+    }
+
+    .percent-nummber {
+        margin-bottom: 50px;
+    }
+    
 
     /*CTA AGENDE SUA CONSULTORIA*/
 

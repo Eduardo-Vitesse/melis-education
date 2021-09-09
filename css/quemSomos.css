@@ -145,3 +145,93 @@
 .img-professora {
     margin-top: -17px;
 }
+
+@media (max-width: 740px) {
+    /*HERO*/
+    .hero-quem-somos {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-hero-quem-somos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .hero-quem-somos img {
+        width: 110%;
+    }
+
+    .text-hero-quem-somos {
+        margin-top: 44px;
+    }
+
+    .text-hero-quem-somos p {
+        font-size: 16px;
+    }
+
+    /*ESTUDAR É PRATICAR...*/
+    .grafismo-estudar-praticar {
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-y: bottom;
+    }
+
+    .estudar-praticar {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+
+    .texto-estudar-praticar p {
+        font-size: 16px;
+    }
+
+    .img-estudar-praticar {
+        margin: 30px -15px 0px -15px;
+    }
+
+    .transition-quem-somos {
+        margin-top: 90px;
+        padding: 30px;
+        width: 330px;
+        height: 206px;
+        border-radius: 20px;
+        background-size: cover;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column; 
+    }
+
+
+    .transition-quem-somos h2 {
+        width: 190px;
+        text-align: center;
+    }
+
+    .sobre-a-professora {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-professora {
+        margin-top: 40px;
+        padding-top: 0;
+    }
+
+    .text-professora h2 {
+        font-size: 26px;
+    }
+
+    .text-professora h3 {
+        font-size: 16px;
+    }
+
+    .text-professora p {
+        font-size: 16px;
+    }
+}

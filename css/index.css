@@ -360,6 +360,7 @@ body {
     .card-depoimentos {
         max-width: 100%;
         margin-top: 24px;
+        margin-bottom: 30px;
     }
   }
 
@@ -371,6 +372,10 @@ body {
 
     .differentials-slider {
         display: block;
+    }
+
+    .slider-details {
+        width: 200px;
     }
 
     .differentials-slider .swiper-wrapper .swiper-slide-dif {
@@ -402,18 +407,14 @@ body {
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
         bottom: 0;
-        background-color: transparent;
+        background-color: white;
     }
 
-    .swiper-pagination-bullet-active {
-        width: 8px;
-        height: 8px;
+    .swiper-pagination-bullets {
+        margin-top: -20px !important;
     }
 
-    .swiper-pagination-bullet {
-        width: 8px;
-        height: 8px;
-    }
+    
 
     .differentials-slider .swiper-slide .slider-box {
         width: 100%;

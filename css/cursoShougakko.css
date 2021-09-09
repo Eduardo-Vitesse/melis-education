@@ -379,6 +379,9 @@
         border-radius: 20px;
     }
 
+    .menina-cta-mobile {
+        display: block;
+    }
     .menina-cta-descktop {
         display: none;
     }

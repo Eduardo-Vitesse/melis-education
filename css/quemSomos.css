@@ -213,9 +213,42 @@
         text-align: center;
     }
 
+
+    /*BOX CARDS AZUL*/
+    .cards-quem-somos {
+        display: none;
+    }
+
+    .cards-quem-somos-mobile {
+        margin-top: 100px;
+    }
+
+    .box-cards-azul {
+        width: 87vw;
+        margin-bottom: 50px;
+    }
+
+    .percent-nummber {
+        margin-bottom: 50px;
+        margin-right: 0px !important;
+        margin-left: 20px;
+    }
+    
+    .swiper-pagination .swiper-pagination-bullet {
+        background-color: var(--color-gray-80);
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 27px !important;
+        border-radius: 6px;
+        transition: all .3s;
+    }
+
+    /*SOBRE A PROFESSORA*/
     .sobre-a-professora {
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 125px;
     }
 
     .text-professora {

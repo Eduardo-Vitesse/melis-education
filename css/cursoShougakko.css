@@ -93,6 +93,10 @@
 }
 
 /*COMO FUNCIONA A JORNADA*/
+.numbers-slider {
+    display: none;
+}
+
 .como-funciona-curso-shougakko{
     margin-top: 16rem;
 }

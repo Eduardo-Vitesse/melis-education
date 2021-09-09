@@ -422,6 +422,10 @@
     }
 
     .check-img-mobile {
+        display: block;
+    }
+
+    .check-img-mobile {
         margin: 32px 32px 0 32px !important;
     }
 

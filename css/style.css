@@ -608,4 +608,9 @@ footer {
     height: 507px;
     padding: 40px 30px;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }

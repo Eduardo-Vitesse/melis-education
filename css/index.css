@@ -213,7 +213,7 @@ body {
     margin: 0;
 }
 
-  .swiper-pagination-bullet {
+  .mySwiper .swiper-pagination-bullet {
     font-family: 'Montserrat', sans-serif; 
     width: 32px;
     height: 32px;
@@ -228,7 +228,7 @@ body {
     opacity: 1;
   }
 
-  .swiper-pagination-bullet-active {
+  .mySwiper .swiper-pagination-bullet-active {
     width: 36px;
     height: 36px;
     color: var(--color-white);
@@ -365,17 +365,19 @@ body {
   }
 
   @media (max-width: 800px) {
-    /**/
+    /*DIFERENCIAIS*/
     .box-differentials {
         display: none;
     }
 
     .differentials-slider {
         display: block;
+        width: 100%;
     }
 
     .slider-details {
         width: 200px;
+        margin-right: -8px;
     }
 
     .differentials-slider .swiper-wrapper .swiper-slide-dif {
@@ -385,55 +387,57 @@ body {
         border-radius: 18px;
         padding: 29px 45px;
         margin-top: 20px;
+        margin-bottom: 40px;
     }
 
-    .differentials-slider .mySwiper2 {
-        position: relative;
+    .differentials-slider .swiper-pagination .swiper-pagination-bullet {
+        background-color: var(--color-gray-80);
     }
 
-    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-        left: none;
-        transform: none;
-        white-space: none;
+    .differentials-slider .swiper-pagination-bullet-active {
+        background-color: var(--color-gray-80)!important;
+        width: 27px !important;
+        border-radius: 6px;
+        transition: all .3s;
     }
-
-    .differentials-slider .swiper-pagination-dif {
-        position: absolute;
-        /*z-index: 99;*/
-    }
-
-    .swiper-horizontal>.swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,
-    .swiper-pagination-fraction {
-        bottom: 0;
-        background-color: white;
-    }
-
-    .swiper-pagination-bullets {
-        margin-top: -20px !important;
-    }
-
     
+    .differentials-slider .swiper-pagination-bullet {
+        background-color: var(--color-gray-80);
+        width: 8px;
+        height: 8px;
+        margin-left: 2.5px !important;
+        margin-right: 2.5px !important;
+    }
 
     .differentials-slider .swiper-slide .slider-box {
         width: 100%;
         height: 134px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         color: var(--color-white);
         font-weight: 600;
         font-size: 1.8rem;
     }
-
-    .differentials-slider .swiper-slide .slider-box .text-differentials {
-        height: auto;
+    
+    .swiper-horizontal>.swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: relative;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        background-color: var(--color-white);
+        top: 50%;
     }
 
-    .differentials-slider .swiper-slide .slider-box .text-differentials spab {
-        margin-bottom: 0;
+    .differentials-slider .swiper-pagination-dif {
+        width: 100%;
+        background-color: transparent;
     }
+
+
   }
 
   @media (max-width: 740px) {
@@ -487,6 +491,10 @@ body {
     }
 
     /*CARDS CURSOS*/
+    .courses {
+        margin-top: 90px;
+    }
+
     .cards-cursos {
         display: flex;
         flex-direction: column;

@@ -531,6 +531,97 @@
           </div>
         </div>
       </div>
+    
+
+      <div id="slide-numero" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+
+            <div class="card-beneficio">
+              <div class="icon-texto-beneficio">
+                <img src="./img/icons/heart.svg" alt="icone de coração" />
+                <h3>Benefício</h3>
+              </div>
+              <p>
+                Praesent quis quam vel odio finibus sollicitudin. Sed mi nisl,
+                mollis sit amet.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      
+      </div>
+
+
+
+
+    
+        
+    </div>
+
     </section>
 
     <!--TEXTO EXPLICATIVO-->
@@ -677,11 +768,21 @@
      
      <!-- Initialize Swiper -->
      <script>
-      var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
+      var swiper = new Swiper("#slide-numero", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
-      });
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+              return '<span class="' + className + '">' + (index + 1) + "</span>";
+            },
+          },
+         
+        }); 
     </script>
   </body>
 </html>

@@ -45,9 +45,17 @@
 }
 
 .cards-jornada-curso {
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.cards-jornada-curso .dois-tracos-01, 
+.cards-jornada-curso .dois-tracos-02,
+.cards-jornada-curso .dois-tracos-03,
+.cards-jornada-curso .dois-tracos-04 {
+    display: none;
 }
 
 .card-jornada {
@@ -342,6 +350,28 @@
     .cards-jornada-curso {
         display: flex;
         flex-direction: column;
+    }
+
+    .cards-jornada-curso .dois-tracos-01, 
+    .cards-jornada-curso .dois-tracos-02,
+    .cards-jornada-curso .dois-tracos-03,
+    .cards-jornada-curso .dois-tracos-04 {
+        display: block;
+        z-index: 3;
+        position: absolute;
+        margin-left: 100px;
+    }
+    .cards-jornada-curso .dois-tracos-01 {
+        margin-top: 130px;
+    }
+    .cards-jornada-curso .dois-tracos-02 {
+        margin-top: 385px;
+    }
+    .cards-jornada-curso .dois-tracos-03 {
+        margin-top: 642px;
+    }
+    .cards-jornada-curso .dois-tracos-04 {
+        margin-top: 900px;
     }
 
     .card-jornada {

@@ -92,7 +92,7 @@
 
 .img-background {
   position: absolute;
-  left: 20%;
+  
   z-index: -1;
 }
 
@@ -447,7 +447,7 @@ header .sub-menu .submeni-item:hover .detail {
   display: flex;
   justify-content: space-between;
   margin-top: 17.8rem;
-  margin-bottom: 18.5rem;
+  margin-bottom: 15rem;
 }
 
 .text-contato {
@@ -713,8 +713,32 @@ footer .menu-footer .sub-menu-footer .submeni-item:hover .detail {
     padding: 40px 30px;
   }
 
-  footer {
+  .copy-and-social, .social {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+
+  .social p {
+    margin-bottom: 16px;
+  }
+
+  .copy-and-social h3 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  /*FOOTER*/
+  footer .menu-footer nav {
+    flex-direction: column;
+}
+
+footer .menu-footer nav ul {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+footer .menu-footer nav a.btn {
+    width: 100%;
+}
 }

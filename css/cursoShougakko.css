@@ -382,12 +382,33 @@
         margin-left: 20px;
     }
     
+    .swiper-horizontal>.swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper-pagination-custom, .swiper-pagination-fraction {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mySwiper2 .swiper-pagination-bullets {
+        color: var(--color-gray-80);
+    }
+
+    .mySwiper2 .swiper-pagination-bullet-active {
+        background-color: var(--color-gray-80);
+        width: 27px!important;
+        height: 8px;
+        border-radius: 8px;
+        transition: all .3s;
+        }
 
     /*CTA AGENDE SUA CONSULTORIA*/
 
     .consultoria-curso-shougakko {
         background-image: url(../img/background/base-consultoria-mobile.png);
         background-repeat: no-repeat;
+        height: 620px !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -447,7 +468,11 @@
 
     /*BENEFICIOS*/
     .beneficios-curso-shougakko {
-        margin-top: 120PX;;
+        margin-top: 120PX;
+    }
+
+    .beneficios-curso-shougakko h2 {
+        margin-bottom: 30px;
     }
 
     .cards-cursos-beneficios {
@@ -455,8 +480,9 @@
     }
 
     .card-beneficio {
-        width: 100%;
-        margin-bottom: 24px;
+        margin-left: 18px;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     .card-beneficio p {
@@ -465,11 +491,28 @@
     
 
     /*SLIDER*/
-    .swiper-button-next {
-
+    .slider-details {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 230px;
+        height: 50px;
+        float: right;
+        margin-right: 10px;
     }
 
-    .swiper-pagination-bullet {
+    .swiper-pagination {
+        z-index: 5;
+        background-color: #F4F4F5;
+        width: 132px !important;
+        border-radius: 40px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slider-details .swiper-pagination-bullet {
         height: 36px;
         width: 36px;
         border-radius: 29px;
@@ -480,27 +523,31 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-        text-align: center;
         position: relative;
-        left: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 0%;
     }
 
-    .swiper-pagination-bullet-active {
+
+    .slider-details .swiper-pagination-bullet-active {
         background-color: var(--color-secondary);
         color: white;
     }
 
-    .swiper-button-next, .swiper-button-prev {
+    .slider-details .swiper-button-next, .swiper-button-prev {
         height: 36px !important;
         width: 36px !important;
         background-color: #F4F4F5;
-        font-size: 18px;
+        font-size: 10px;
         border-radius: 36px;
         color: var(--color-secondary);
     }
 
-    .swiper-button-prev::after, .swiper-button-next:after {
-        font-size: 18px;
+    .slider-details .swiper-button-prev::after, .swiper-button-next:after {
+        font-size: 10px;
+        font-weight: 700;
     }
     
 

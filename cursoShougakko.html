@@ -314,7 +314,7 @@
         <!--CARDS MOBILE-->
         <div class="numbers-slider">
 
-          <div class="swiper mySwiper">
+          <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
               <!--CARD 1-->
               <div class="swiper-slide">
@@ -356,7 +356,9 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="bullet-2">
+            <div class="swiper-pagination-2"></div>
+          </div>
           </div>
   
           
@@ -609,15 +611,12 @@
           
         </div>
       
+        <div class="slider-details">
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
-      
+        </div>
       </div>
-
-
-
-
     
         
     </div>
@@ -769,7 +768,7 @@
      <!-- Initialize Swiper -->
      <script>
       var swiper = new Swiper("#slide-numero", {
-        cssMode: true,
+        spaceBetween: 37,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -783,6 +782,14 @@
           },
          
         }); 
+
+        var swiper = new Swiper(".mySwiper2", {
+          spaceBetween: 30,
+          pagination: {
+            el: " .swiper-pagination-2",
+          },
+        });
+
     </script>
   </body>
 </html>

@@ -347,7 +347,11 @@ body {
         font-size: 16px;
     }
 
-    /*CARD*/
+    /*COMO FUNCIONA*/
+    .bg-jornada {
+        background-image: url(/img/background/fundo-curso-mobile.svg);
+    }
+
     .jornadas-curso-shougakko h2 {
         margin: 0;
     }

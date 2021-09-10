@@ -16,13 +16,14 @@ body {
 
 .box-text-hero svg {
     position: absolute;
-    right: 5.5%;
+    right: 4%;
     top: 9.5%;
     z-index: -1;
 }
 
 .box-text-hero p {
     margin-top: 20px;
+    max-width: 500px;
 }
 
 .box-text-hero button {
@@ -34,7 +35,8 @@ body {
 }
 
 .img-hero {
-    margin-left: 7px;
+    position: relative;
+    left: 10%;
 }
 
 .img-hero img {
@@ -43,7 +45,7 @@ body {
 
 /*NA MELIS VOCÊ ENCONTRA*/
 .melis-differentials {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .box-differentials {
@@ -103,7 +105,7 @@ body {
 
 /*CURSOS*/
 .courses {
-    margin-top: 14.0rem;
+    margin-top: 9rem;
 }
 
 .courses #barbante-mobile {
@@ -118,15 +120,16 @@ body {
 
 /*METODOLOGIA E PRINCÍPIOS*/
 .methodology {
-    margin-top: 10.0rem;
+    margin-top: 14.0rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .text-methodology {
     max-width: 476px;
     height: auto;
-    margin-top: 73px;
+    
 }
 
 .text-methodology p {
@@ -147,6 +150,7 @@ body {
 
 .depoimentos h2 {
     max-width: 564px;
+    margin-left: 14px;
     color: var(--color-white);
 }
 

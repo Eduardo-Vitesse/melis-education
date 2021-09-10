@@ -69,7 +69,7 @@ body {
     padding: 30px 27px;
     border-radius: 20px;
     background-color: var(--color-white);
-    position: static;
+    position: relative;
     z-index: 3;
 }
 
@@ -90,19 +90,18 @@ body {
 }
 
 #card-2 {
-    margin-top: 17.6rem;    
+    right: -150%;
+    margin-top: 3rem;    
 }
 
-#card-3 {
-    margin-top: 2.5rem;    
-}
 
 #card-4 {
-    margin-top: 21.2rem;    
+    right: -150%;
+    margin-top: 2rem;    
 }
 
 #card-5 {
-    margin-top: 8.9rem;    
+    margin-top: 2rem;    
 }
 
 /*COMO FUNCIONA A JORNADA*/
@@ -307,7 +306,8 @@ body {
 /*TEXTO EXPLICATIVO*/
 
 .texto-explicativo-curso-shougakko {
-    margin-top: 18rem;
+    margin-top: 13rem;
+    margin-bottom: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

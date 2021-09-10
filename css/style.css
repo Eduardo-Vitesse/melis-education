@@ -143,11 +143,11 @@ header nav ul li a {
 header .sub-menu {
   display: none;
   width: 272px;
-  height: 127px;
+  height: auto;
   padding: 10px;
   position: absolute;
   margin-top: -12.5px;
-  left: 48%;
+  left: 44%;
   background: var(--color-white);
   box-shadow: 0px 6px 30px rgba(23, 108, 130, 0.1);
   border-radius: 8px;
@@ -173,7 +173,7 @@ header .sub-menu .submeni-item .detail {
   transition: all .4s linear;
 }
 
-header .sub-menu .submeni-item a {
+header .sub-menu .submeni-item .link-menu {
   font-size: 20px;
   line-height: 130%;
   color: var(--color-gray);
@@ -181,7 +181,7 @@ header .sub-menu .submeni-item a {
   transition: all .4s linear;
 }
 
-header .sub-menu .submeni-item:hover a {
+header .sub-menu .submeni-item:hover .link-menu {
   font-weight: bold;
 }
 
@@ -446,8 +446,8 @@ header .sub-menu .submeni-item:hover .detail {
 .contato {
   display: flex;
   justify-content: space-between;
-  margin-top: 17.8rem;
-  margin-bottom: 15rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
 }
 
 .text-contato {
@@ -525,6 +525,7 @@ footer {
 }
 
 .copy-and-social {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -689,7 +690,7 @@ footer .menu-footer .sub-menu-footer .submeni-item:hover .detail {
 
   /*CONTATO*/
   .contato {
-    margin-top: 132px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
   }

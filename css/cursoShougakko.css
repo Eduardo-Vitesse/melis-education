@@ -93,6 +93,10 @@
 }
 
 /*COMO FUNCIONA A JORNADA*/
+.numbers-slider {
+    display: none;
+}
+
 .como-funciona-curso-shougakko{
     margin-top: 16rem;
 }
@@ -184,6 +188,10 @@
     margin-top: 14rem;
 }
 
+.menina-cta-mobile {
+    display: none;
+}
+
 .consultoria-curso-shougakko img {
     margin-top: -59px;
     margin-right: 7.1rem;
@@ -237,6 +245,10 @@
     margin-left: 4.8rem;
 }
 
+.check-img-mobile {
+    display: none;
+}
+
 /*BENEFÍCIOS*/
 .beneficios-curso-shougakko {
     margin-top: 16rem;
@@ -252,7 +264,7 @@
 }
 
 .card-beneficio {
-    max-width: 296px;
+    width: 296px;
     height: 212px;
     padding: 3rem 3rem 3rem 3rem;
     border-radius: 20px;
@@ -293,5 +305,224 @@
 }
 
 .texto-explicativo-curso-shougakko img {
-    width: 59.4rem;
+    width: 594px;
+}
+
+@media (max-width: 740px) {
+
+    
+  
+    h2 {
+        font-size: 24px;
+    }
+  
+    p {
+        font-size: 14px;
+    }
+
+    /*HERO*/
+    .hero-curso-shougakko h1 {
+        margin-top: 50px;
+        font-size: 32px;
+    }
+
+    .hero-curso-shougakko P {
+        font-size: 16px;
+    }
+
+    /*CARD*/
+    .jornadas-curso-shougakko h2 {
+        margin: 0;
+    }
+
+    .jornadas-curso-shougakko img {
+        display: none;
+    }
+
+    .cards-jornada-curso {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-jornada {
+        margin-top: 62px;
+    }
+
+    #card-2, #card-3, #card-4, #card-5 {
+        margin-top: 62px;
+    }
+
+    /*CARDS COMO FUNCIONA*/
+    .como-funciona-curso-shougakko {
+        margin-top: 110px;
+    }
+
+    .text-como-funciona {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-como-funciona p {
+        margin-top: 14px;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    .numbers-como-funciona {
+        display: none;
+    }
+
+    .numbers-slider {
+        display: block;
+    }
+
+    .percent-nummber {
+        margin-bottom: 50px;
+        margin-right: 0px !important;
+        margin-left: 20px;
+    }
+    
+
+    /*CTA AGENDE SUA CONSULTORIA*/
+
+    .consultoria-curso-shougakko {
+        background-image: url(../img/background/base-consultoria-mobile.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 140px 32px;
+        border-radius: 20px;
+    }
+
+    .menina-cta-mobile {
+        display: block;
+    }
+    .menina-cta-descktop {
+        display: none;
+    }
+
+    .agende-text-and-button h2 {
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 80%;
+    }
+
+    .agende-text-and-button {
+        margin: 30px 0 60px 30px;
+    }
+
+    /*CHECKPOINT*/
+    .checkpoint-curso-shougakko {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-checkpoint {
+        display: flex;
+        padding: 30px 30px 0 30px;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .card-checkpoint img {
+        margin: 0;
+    } 
+
+    .card-checkpoint p {
+        font-size: 16px;
+    }
+
+    .check-img-descktop {
+        display: none;
+    }
+
+    .check-img-mobile {
+        display: block;
+    }
+
+    .check-img-mobile {
+        margin: 32px 32px 0 32px !important;
+    }
+
+    /*BENEFICIOS*/
+    .beneficios-curso-shougakko {
+        margin-top: 120PX;;
+    }
+
+    .cards-cursos-beneficios {
+        display: none;
+    }
+
+    .card-beneficio {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .card-beneficio p {
+        font-size: 18px;
+    }
+    
+
+    /*SLIDER*/
+    .swiper-button-next {
+
+    }
+
+    .swiper-pagination-bullet {
+        height: 36px;
+        width: 36px;
+        border-radius: 29px;
+        background-color: #F4F4F5;
+        color: var(--color-gray-60);
+        opacity: unset;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+        position: relative;
+        left: 30%;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: var(--color-secondary);
+        color: white;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        height: 36px !important;
+        width: 36px !important;
+        background-color: #F4F4F5;
+        font-size: 18px;
+        border-radius: 36px;
+        color: var(--color-secondary);
+    }
+
+    .swiper-button-prev::after, .swiper-button-next:after {
+        font-size: 18px;
+    }
+    
+
+
+
+    /*TEXTO EXPLICATIVO*/
+    .texto-explicativo-curso-shougakko {
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    .texto-explicativo-curso-shougakko img {
+        margin-top: 50px;
+        max-width: 110%;
+    }
+
+    .texto-explicativo p {
+        font-size: 16px;
+    }
+
+
+
+
 }

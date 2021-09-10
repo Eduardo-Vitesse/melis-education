@@ -145,3 +145,148 @@
 .img-professora {
     margin-top: -17px;
 }
+
+@media (max-width: 740px) {
+    /*HERO*/
+    .hero-quem-somos {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-hero-quem-somos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .hero-quem-somos img {
+        width: 110%;
+    }
+
+    .text-hero-quem-somos {
+        margin-top: 44px;
+    }
+
+    .text-hero-quem-somos p {
+        font-size: 16px;
+    }
+
+    /*ESTUDAR É PRATICAR...*/
+    .grafismo-estudar-praticar {
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-y: bottom;
+    }
+
+    .estudar-praticar {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+
+    .texto-estudar-praticar p {
+        font-size: 16px;
+    }
+
+    .img-estudar-praticar {
+        margin: 30px -15px 0px -15px;
+    }
+
+    .transition-quem-somos {
+        margin-top: 90px;
+        padding: 30px;
+        width: 330px;
+        height: 206px;
+        border-radius: 20px;
+        background-size: cover;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column; 
+    }
+
+
+    .transition-quem-somos h2 {
+        width: 190px;
+        text-align: center;
+        font-family: Raleway;
+        line-height: 37px;
+
+    }
+
+    .text-transition {
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-transition img {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }
+    
+    .text-transition h2 {
+        color: white;
+    }
+
+
+    /*BOX CARDS AZUL*/
+    .cards-quem-somos {
+        display: none;
+    }
+
+    .cards-quem-somos-mobile {
+        margin-top: 100px;
+    }
+
+    .box-cards-azul {
+        width: 87vw;
+        margin-bottom: 50px;
+    }
+
+    .percent-nummber {
+        margin-bottom: 50px;
+        margin-right: 0px !important;
+        margin-left: 20px;
+    }
+    
+    .swiper-pagination .swiper-pagination-bullet {
+        background-color: var(--color-gray-80);
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 27px !important;
+        border-radius: 6px;
+        transition: all .3s;
+    }
+
+    /*SOBRE A PROFESSORA*/
+    .sobre-a-professora {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 125px;
+    }
+
+    .text-professora {
+        margin-top: 40px;
+        padding-top: 0;
+    }
+
+    .text-professora h2 {
+        font-size: 26px;
+    }
+
+    .text-professora h3 {
+        font-size: 16px;
+    }
+
+    .text-professora p {
+        font-size: 16px;
+    }
+}

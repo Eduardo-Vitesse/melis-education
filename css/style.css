@@ -63,7 +63,7 @@
     --color-secondary-darker:#C11345;
     --color-tertiary:#E8AE29;
     --color-tertiary-darker:#D99F1A;
-    --color-neutral:#FAFBF4;
+    --color-neutral:#f9fafa;
     --color-white:#ffffff;
     --color-gray:#1B2A2E;
     --color-gray-80:#485558;
@@ -564,3 +564,53 @@ footer {
 .social-icons a:hover {
   background-color: var(--color-secondary-darker);
 } 
+
+@media (max-width: 740px) {
+
+  h1 {
+      font-size: 32px;
+  }
+
+  h2 {
+      font-size: 24px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  .container {
+    padding: 0 24PX;
+  }
+
+  /*CONTATO*/
+  .contato {
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contato h2 {
+    font-size: 32px;
+  }
+
+  .contato p {
+    font-size: 16px;
+  }
+
+  .contato img {
+    margin: auto;
+  }
+
+  form {
+    margin-top: 32px;
+    width: 100%;
+    height: 507px;
+    padding: 40px 30px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

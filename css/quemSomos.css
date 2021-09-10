@@ -411,5 +411,8 @@ body {
         display: none;
     }
 
+    .cards-quem-somos-mobile {
+        display: block;
+    }
 
 }

@@ -224,6 +224,10 @@ body {
 }
 
 /*CARDS CHECKPOINT*/
+#slide-numero {
+    display: none;
+}
+
 .checkpoint-curso-shougakko {
     margin-top: 14rem;
     display: flex;
@@ -263,9 +267,6 @@ body {
 }
 
 /*BENEFÍCIOS*/
-#slide-numero {
-    display: none;
-}
 
 .beneficios-curso-shougakko {
     margin-top: 16rem;
@@ -348,12 +349,15 @@ body {
     }
 
     /*COMO FUNCIONA*/
+
     .bg-jornada {
         background-image: url(/img/background/fundo-curso-mobile2.svg);
     }
 
     .jornadas-curso-shougakko h2 {
         margin: 0;
+        font-weight: 600;
+        line-height: 36px;
     }
 
     .jornadas-curso-shougakko img {
@@ -510,6 +514,11 @@ body {
     }
 
     /*BENEFICIOS*/
+
+    #slide-numero {
+        display: block;
+    }
+
     .beneficios-curso-shougakko {
         margin-top: 120PX;
     }

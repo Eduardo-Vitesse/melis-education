@@ -10,31 +10,26 @@ window.addEventListener('resize', () => {
   }
 })
 
-// Função de abrir o sropdown do menu principal
+
 $(document).ready(function(){
+  // Função de abrir o sropdown do menu principal
     $("#drop-down").click(function(){
       $("#subMenuId").toggle();
     });
-});
 
-// Funçãos do menu principal responsívos
-$(document).ready(function(){
-  $("#menu-mobile").click(function(){
-    $(".hidde-menu").toggle();
-  });
-});
+    $("#menu-mobile").click(function(){
+      $(".hidde-menu").toggle();
+    });
 
-$(document).ready(function(){
-  $("#drop-down-mobile").click(function(){
-    $("#subMenuId-mobile").toggle();
-  });
-});
+    // Funçãos do menu principal responsívos
+    $("#drop-down-mobile").click(function(){
+      $("#subMenuId-mobile").toggle();
+    });
 
-// Função de abrir o sropdown do menu no rodapé
-$(document).ready(function(){
-  $("#drop-down-footer").click(function(){
-    $("#subMenuId-footer").toggle();
-  });
-});
+    // Função de abrir o sropdown do menu no rodapé
+    $("#drop-down-footer").click(function(){
+      $("#subMenuId-footer").toggle();
+    });
 
-// Funçãos do menu no rodapé responsívos
+    // Funçãos do menu no rodapé responsívos
+});

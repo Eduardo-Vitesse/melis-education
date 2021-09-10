@@ -289,4 +289,116 @@
     .text-professora p {
         font-size: 16px;
     }
+
+    /* MENU DO FOOTER */
+  footer .menu-footer {
+    margin-top: 33px;
+    margin-bottom: 38px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .menu-footer nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer .menu-footer nav .logo {
+    width: 241px;
+    height: auto;
+  }
+  
+  footer .menu-footer nav ul {
+    display: flex;
+  }
+  
+  footer .menu-footer nav ul li {
+    margin-right: 24px;
+    display: flex;
+    cursor: pointer;
+  }
+  footer .menu-footer nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  footer .menu-footer nav ul li .arrow-down {
+    margin-left: 7.25px;
+  }
+  
+  footer .menu-footer nav ul li a {
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--color-gray-60);
+  }
+  
+  /* MENU DROP-DOWN */
+  footer .menu-footer .sub-menu-footer {
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    height: 127px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 30px;
+    left: 40%;
+    background: var(--color-white);
+    box-shadow: 0px 6px 30px rgba(23, 108, 130, 0.1);
+    border-radius: 8px;
+    z-index: 99;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item {
+    width: 252px;
+    height: 50px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s linear;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item .detail {
+    width: 4px;
+    height: 30px;
+    background-color:transparent;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: all .4s linear;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item a {
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--color-gray);
+    margin-left: 15px;
+    transition: all .4s linear;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item:hover a {
+    font-weight: bold;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item:hover {
+    background: rgba(220, 29, 83, 0.1);
+    border-radius: 8px;
+  }
+  
+  footer .menu-footer .sub-menu-footer .submeni-item:hover .detail {
+    background-color: #C11345;
+  }
+
+  .differentials-slider {
+      display: none;
+  }
+
+  #dep-principal {
+    display: block;
+    }
+    #dep-mobile {
+        display: none;
+    }
 }

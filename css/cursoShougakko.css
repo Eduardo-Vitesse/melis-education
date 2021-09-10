@@ -1,3 +1,8 @@
+body {
+    background-image: url(/img/background/detail-hero.svg);
+    background-repeat: no-repeat;
+  }
+
 /*HERO*/
 .hero-curso-shougakko h1 {
     font-size: 4.6rem;
@@ -258,6 +263,10 @@
 }
 
 /*BENEFÍCIOS*/
+#slide-numero {
+    display: none;
+}
+
 .beneficios-curso-shougakko {
     margin-top: 16rem;
 }

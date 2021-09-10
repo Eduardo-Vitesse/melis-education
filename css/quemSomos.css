@@ -1,4 +1,9 @@
-
+body {
+    background-image: url(/img/background/detail-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
 /*HERO*/
 .hero-quem-somos {
     display: flex;
@@ -104,6 +109,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 16.7rem;
+}
+
+.cards-quem-somos-mobile {
+    display: none;
 }
 
 /*SOBRE A PROFESSORA*/
@@ -401,4 +410,6 @@
     #dep-mobile {
         display: none;
     }
+
+
 }

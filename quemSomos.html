@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/quemSomos.css">
     <title>Melis Education - Quem somos</title>
@@ -68,7 +69,7 @@
     </header>
 
     <!--HERO-->
-    <section>
+    <section data-aos="fade-up" data-aos-duration="1500">
       <div class="container hero-quem-somos">
         <div class="text-hero-quem-somos">
           <h4>A MELIS É...</h4>
@@ -89,9 +90,9 @@
       </div>
     </section>
     <!--ESTUDAR É PRATICAR...-->
-    <section class="grafismo-estudar-praticar">
+    <section  class="grafismo-estudar-praticar">
       <div>
-        <div class="container estudar-praticar">
+        <div data-aos="fade-left" data-aos-duration="1500" class="container estudar-praticar">
           <div class="img-estudar-praticar">
             <img
               src="./img/foto menino e menina estudando com o detalhe de mensagem azul.png"
@@ -116,7 +117,7 @@
         </div>
       </div>
       <!--FRASE DE TRANSICÃO-->
-      <div class="container transition-quem-somos">
+      <div data-aos="fade-left" data-aos-duration="1500" class="container transition-quem-somos">
         <div class="text-transition">
           <img src="./img/icons/aspas-quemSomos.svg" alt="" />
           <h2>Você saber e fazer é diferente</h2>
@@ -126,7 +127,7 @@
     </section>
 
     <!--CARD AZUL DA PÁGINA QUEM SOMOS-->
-    <section>
+    <section data-aos="fade-right" data-aos-duration="1500">
       <div class="container cards-quem-somos">
         <!--CARD 1-->
         <div class="box-cards-azul">
@@ -199,7 +200,7 @@
       </div>
 
         <!--CARDS MOBILE--> 
-        <div class="container cards-quem-somos-mobile">
+        <div data-aos="fade-right" data-aos-duration="1500" class="container cards-quem-somos-mobile">
 
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -288,7 +289,7 @@
 
     <!--SOBRE A PROFESSORA-->
     <section style="background-color: var(--color-secondary);">
-      <div class="container sobre-a-professora">
+      <div data-aos="fade-up" data-aos-duration="1500" class="container sobre-a-professora">
         <div class="text-professora">
           <h2>Lisley Nagakura</h2>
           <h3>Fundadora da Melis Education e Mentora de alunos</h3>
@@ -390,6 +391,7 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
       <!-- Initialize Swiper -->
@@ -400,6 +402,8 @@
             el: ".swiper-pagination",
           },
         });
+
+        AOS.init();
       </script>
     </script>
   </body>

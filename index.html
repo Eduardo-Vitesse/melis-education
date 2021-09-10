@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Melis Education - Home</title>
@@ -65,7 +66,7 @@
       </div>
     </header>
     <!--HERO-->
-    <section>
+    <section data-aos="fade-up" data-aos-duration="1500">
       <div class="container hero">
         <div class="box-text-hero">
           <h1>
@@ -103,7 +104,7 @@
       </div>
     </section>
     <!--NA MELIS VOCÊ ENCONTRA-->
-    <section>
+    <section data-aos="fade-left" data-aos-duration="1500">
       <div class="container melis-differentials">
         <h2>Na Melis você encontra</h2>
         <div class="box-differentials">
@@ -170,7 +171,7 @@
       </div>
     </section>
     <!--CONHEÇA NOSSOS CURSOS-->
-    <section>
+    <section data-aos="fade-right" data-aos-duration="1500">
       <div class="container courses">
         <img id="barbante-mobile" src="./img/details/barbante-mobile-home.png" alt="Linha serrilhada">
         <h2>Conheça nossos cursos</h2>
@@ -230,7 +231,7 @@
       </div>
     </section>
     <!--METODOLOGIA E PRINCÍPIOS-->
-    <section>
+    <section data-aos="fade-up" data-aos-duration="1500">
         <div class="container methodology">
             <div class="text-methodology">
                 <h2>Conheça a nossa metodologia e princípios da Melis</h2>
@@ -248,11 +249,11 @@
     </section>
     <!--DEPOIMENTOS-->
     <section style="background-color: var(--color-primary-darker);">
-        <div class="container depoimentos">
+        <div  data-aos="fade-left" data-aos-duration="1500" class="container depoimentos">
             <h2>Aenean a pellentesque nulla. Fusce fringilla, purus nec dictum convallis,</h2>
         </div>
       <!--CARD DEPOIMENTO CARROSSEL-->
-      <div class="container">
+      <div data-aos="fade-left" data-aos-duration="1500"  class="container">
         <!-- Swiper -->
         <div id="dep-principal" class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -408,7 +409,7 @@
     </div>
     </section>
     <!--SEÇÃO DE CONTATO-->
-    <section>
+    <section data-aos="fade-right" data-aos-duration="1500">
         <div class="container contato">
             <div class="text-contato">
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
@@ -519,6 +520,7 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
@@ -562,6 +564,8 @@
           el: ".differentials-slider .swiper-pagination-dif",
         },
       });
+
+      AOS.init();
       
   </script>
   </body>
